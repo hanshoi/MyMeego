@@ -1,0 +1,2 @@
+shlibs:Depends=libc6 (>= 2.1.3), libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1), libqt4-47-dbus (>= 4:4.7.2), libqt4-47-declarative (>= 4:4.7.2), libqtcore4-47 (>= 4:4.7.2), libqtgui4-47 (>= 4:4.7.2), libstdc++6 (>= 4.1.1)
+misc:Depends=

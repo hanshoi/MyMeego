@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="128" width="128" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs>
+  <linearGradient id="a">
+   <stop stop-color="#f2ffdd" offset="0"/>
+   <stop stop-color="#64aa00" offset="1"/>
+  </linearGradient>
+  <linearGradient id="d" y2="128" xlink:href="#a" gradientUnits="userSpaceOnUse" x2="64" x1="64"/>
+  <linearGradient id="c" y2="124.93" xlink:href="#a" gradientUnits="userSpaceOnUse" x2="64.22" y1="19.338" x1="64.22"/>
+  <linearGradient id="b" y2="11.636" gradientUnits="userSpaceOnUse" x2="34.045" gradientTransform="matrix(1.1614 0 0 1.1614 -5.7018 -6.4475)" y1="54.847" x1="34.045">
+   <stop stop-color="#3c3c3c" offset="0"/>
+   <stop stop-color="#fff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <circle stroke-width="2" stroke="#000" cy="64" cx="64" r="62" fill="url(#d)"/>
+ <path fill="url(#c)" d="m125.03 64.887c0 34.242-30.216 61.033-61.03 60.183-35.196-0.37-61.113-29.058-61.07-60.055 0.0192-13.599 40.699-23.66 61.07-5.596 25.619 22.719 54.258 10.299 61.032 5.4677z"/>
+ <g stroke-linejoin="round" transform="matrix(1.6312 -.14241 .14241 1.6312 7.6633 18.032)" stroke="#000">
+  <rect ry="4.6455" height="49.213" width="31.897" y="7.1664" x="15.936" stroke-width="1.1614" fill="url(#b)"/>
+  <rect opacity=".35" ry="4.3743" height="41.835" width="25.835" y="11.06" x="18.924" stroke-width="1.6839" fill="#fff"/>
+ </g>
+</svg>

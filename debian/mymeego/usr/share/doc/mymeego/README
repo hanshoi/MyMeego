@@ -1,0 +1,37 @@
++------------------------------------------------------------------------------+
+|                              MyMeego v0.1                                    |
++------------------------------------------------------------------------------+
+
+Overview
+--------------------------------------------------------------------------------
+MyMeego is a prototype for a program that allows it's user to share media
+between Meego devices. 
+
+Notes
+--------------------------------------------------------------------------------
+The current implementation cannot really transfer files, therefore the 
+filelists and transfers are faked by the backend.
+
+Running
+--------------------------------------------------------------------------------
+To run the program you need both the backend and the UI. Both are found in the
+same repository, from which you are probably reading this file as well. Backend
+can be found in 'ui/daemon/' and the backend process can be started by typing:
+
+python ui/daemon/main.py
+
+The parameter given to the backend is a path to a coherence configuration file
+which defines the name of the device as well as the directories from which
+content is shared.
+
+After you have succesfully started the backend process you can start the UI
+by opening the project in Qt Creator. You should be able to see your own
+device in the devices menu. You can start new backend processes in other
+terminals to add devices to the list. Remember to modify the coherence.conf
+for other backend processes before attempting to start them. You can also run
+other backend processes on other devices on the same network and they should be
+visible in the devices list. 
+
+
+
+

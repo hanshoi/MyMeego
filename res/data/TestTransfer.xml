@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<transferfiles>
+    <albums>
+        <album id="00">
+            <artist>Kraftwerk</artist>
+            <title>Tour De France</title>
+            <cover>cover1.jpg</cover>
+            <URL>empty</URL>
+            <songs>
+                <song>
+		    <number>0</number>
+                    <filename>empty.mp3</filename>
+                </song>
+            </songs>
+        </album>
+	<album id="01">
+            <artist>Kanye West</artist>
+            <title>Graduation</title>
+            <cover>cover2.jpg</cover>
+            <URL>empty</URL>
+            <songs>
+                <song>
+		    <number>0</number>
+                    <filename>empty.mp3</filename>
+                </song>
+            </songs>
+        </album>
+	<album id="02">
+            <artist>Keane</artist>
+            <title>Under The Iron Sea</title>
+            <cover>cover3.jpg</cover>
+            <URL>empty</URL>
+            <songs>
+                <song>
+		    <number>0</number>
+                    <filename>empty.mp3</filename>
+                </song>
+            </songs>
+        </album>
+	<album id="03">
+            <artist>Pink Floyd</artist>
+            <title>The Dark Side Of The Moon</title>
+            <cover>cover4.jpg</cover>
+            <URL>empty</URL>
+            <songs>
+                <song>
+		    <number>0</number>
+                    <filename>empty.mp3</filename>
+                </song>
+            </songs>
+        </album>
+	<album id="04">
+            <artist>The Beatles</artist>
+            <title>Abbey Road</title>
+            <cover>cover5.jpg</cover>
+            <URL>empty</URL>
+            <songs>
+                <song>
+		    <number>0</number>
+                    <filename>empty.mp3</filename>
+                </song>
+            </songs>
+        </album>
+	<album id="05">
+            <artist>Efterklang</artist>
+            <title>Under Giant Trees</title>
+            <cover>cover6.jpg</cover>
+            <URL>empty</URL>
+            <songs>
+                <song>
+		    <number>0</number>
+                    <filename>empty.mp3</filename>
+                </song>
+            </songs>
+        </album>
+	<album id="06">
+            <artist>The Autumn Film</artist>
+            <title>UThe Grey</title>
+            <cover>cover7.jpg</cover>
+            <URL>empty</URL>
+            <songs>
+                <song>
+		    <number>0</number>
+                    <filename>empty.mp3</filename>
+                </song>
+            </songs>
+        </album>
+	<album id="07">
+            <artist>Muse</artist>
+            <title>Black Holes &amp; Revelations</title>
+            <cover>cover8.jpg</cover>
+            <URL>empty</URL>
+            <songs>
+                <song>
+		    <number>0</number>
+                    <filename>empty.mp3</filename>
+                </song>
+            </songs>
+        </album>
+    </albums>
+	
+    <movies>
+        <movie id="10">
+            <cover>movie1.jpg</cover>
+            <name>True Grit</name>
+            <URL>empty</URL>
+        </movie>
+        <movie id="11">
+            <cover>movie2.jpg</cover>
+            <name>Little Fockers</name>
+            <URL>empty</URL>
+        </movie>
+        <movie id="12">
+            <cover>movie3.jpg</cover>
+            <name>Season of the Witch</name>
+            <URL>empty</URL>
+        </movie>
+        <movie id="13">
+            <cover>movie4.jpg</cover>
+            <name>TRON: Legacy</name>
+            <URL>empty</URL>
+        </movie>
+        <movie id="14">
+            <cover>movie5.jpg</cover>
+            <name>Black Swan</name>
+            <URL>empty</URL>
+        </movie>
+        <movie id="15">
+            <cover>movie6.jpg</cover>
+            <name>Country Strong</name>
+            <URL>empty</URL>
+        </movie>
+        <movie id="16">
+            <cover>movie7.jpg</cover>
+            <name>The Fighter</name>
+            <URL>empty</URL>
+        </movie>
+    </movies>
+
+    <pictures>
+        <picture id="20">
+            <thumbnail>picture1.jpg</thumbnail>
+            <URL>empty</URL>
+        </picture>
+        <picture id="21">
+            <thumbnail>picture2.jpg</thumbnail>
+            <URL>empty</URL>
+        </picture>
+        <picture id="22">
+            <thumbnail>picture3.jpg</thumbnail>
+            <URL>empty</URL>
+        </picture>
+        <picture id="23">
+            <thumbnail>picture4.jpg</thumbnail>
+            <URL>empty</URL>
+        </picture>
+        <picture id="24">
+            <thumbnail>picture5.jpg</thumbnail>
+            <URL>empty</URL>
+        </picture>
+        <picture id="25">
+            <thumbnail>picture6.jpg</thumbnail>
+            <URL>empty</URL>
+        </picture>
+    </pictures>
+</transferfiles>

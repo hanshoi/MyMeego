@@ -1,0 +1,5 @@
+usr/bin/*
+usr/share/mymeego/scripts/*.py
+usr/share/mymeego/conf/*.conf
+usr/share/mymeego/res/data/*
+usr/share/dbus-1/services/*

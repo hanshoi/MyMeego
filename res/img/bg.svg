@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="800" width="1280" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs>
+  <radialGradient id="a" gradientUnits="userSpaceOnUse" cy="400" cx="640" gradientTransform="matrix(1.3788 3.1993e-8 -1.875e-8 .80809 -242.46 329.12)" r="640">
+   <stop stop-color="#fec33d" stop-opacity="0" offset="0"/>
+   <stop stop-opacity="0.35" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g transform="translate(0,-252.36)">
+  <rect transform="translate(0,252.36)" height="800" width="1280" y="0" x="0" fill="#fecf63"/>
+  <rect height="800" width="1280" y="252.36" x="0" fill="url(#a)"/>
+ </g>
+</svg>

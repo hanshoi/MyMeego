@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<devices>
+    <device type="phone" id="1" name="luuri">
+        <action name="Settings" dialog="settings" />
+        <action name="Transfer" dialog="transfer" />
+        <action name="Statistics" dialog="statistics" />
+    </device>
+    <device type="netbook" id="2" name="läppäri">
+        <action name="Settings" dialog="settings" />
+        <action name="Transfer" dialog="transfer" />
+        <action name="Statistics" dialog="statistics" />
+    </device>
+    <device type="vehicle" id="3" name="auto">
+        <action name="Settings" dialog="settings" />
+        <action name="Transfer" dialog="transfer" />
+        <action name="Statistics" dialog="carstatistics" />
+        <action name="Control" dialog="heatercontrol" />
+    </device>
+</devices>

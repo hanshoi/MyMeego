@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/audio-x-generic.png</file>
+        <file>img/emblem-unreadable.png</file>
+        <file>img/image-x-generic.png</file>
+        <file>img/video-x-generic.png</file>
+        <file>img/testdata/covers/cover1.jpg</file>
+        <file>img/testdata/covers/cover2.jpg</file>
+        <file>img/testdata/covers/cover3.jpg</file>
+        <file>img/testdata/covers/cover4.jpg</file>
+        <file>img/testdata/covers/cover5.jpg</file>
+        <file>img/testdata/covers/cover6.jpg</file>
+        <file>img/testdata/covers/cover7.jpg</file>
+        <file>img/testdata/covers/cover8.jpg</file>
+        <file>img/testdata/moviecovers/movie1.jpg</file>
+        <file>img/testdata/moviecovers/movie2.jpg</file>
+        <file>img/testdata/moviecovers/movie3.jpg</file>
+        <file>img/testdata/moviecovers/movie4.jpg</file>
+        <file>img/testdata/moviecovers/movie5.jpg</file>
+        <file>img/testdata/moviecovers/movie6.jpg</file>
+        <file>img/testdata/moviecovers/movie7.jpg</file>
+        <file>img/testdata/pictures/picture1.jpg</file>
+        <file>img/testdata/pictures/picture2.jpg</file>
+        <file>img/testdata/pictures/picture3.jpg</file>
+        <file>img/testdata/pictures/picture4.jpg</file>
+        <file>img/testdata/pictures/picture5.jpg</file>
+        <file>img/testdata/pictures/picture6.jpg</file>
+        <file>img/bottombar.svg</file>
+        <file>img/bottombar2.svg</file>
+        <file>img/btnPhone.svg</file>
+        <file>img/btnTV.svg</file>
+        <file>img/bg.svg</file>
+        <file>img/btnCar.svg</file>
+        <file>img/btnDown.svg</file>
+        <file>img/btnNetbook.svg</file>
+        <file>data/testdata.xml</file>
+        <file>data/TestTransfer.xml</file>
+    </qresource>
+</RCC>

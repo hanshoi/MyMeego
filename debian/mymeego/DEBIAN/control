@@ -1,0 +1,11 @@
+Package: mymeego
+Source: mymeego-src
+Version: 0.0.1
+Architecture: i386
+Maintainer: Raw Dimension Projectgroup
+Installed-Size: 1672
+Depends: libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1), libqt4-47-dbus (>= 4:4.7.2), libqt4-47-declarative (>= 4:4.7.2), libqtcore4-47 (>= 4:4.7.2), libqtgui4-47 (>= 4:4.7.2), libstdc++6 (>= 4.1.1), python, python-coherence
+Section: unknown
+Priority: optional
+Description: This is a prototype application for Meego
+ file sharing and collaboration.

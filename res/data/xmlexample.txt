@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- root node -->
+<filelist>
+
+    <!-- source device-->
+    <sourcedevice>
+        <id></id>
+        <name></name>
+        <type></type>
+    </sourcedevice>
+
+    <!-- albums -->
+    <albums>
+        <album id="">
+            <artist></artist>
+            <title></title>
+            <cover></cover>
+            <URI></URI>
+            <songs>
+                <song number="">
+                    <filename></filename>
+                </song>
+            </songs>
+        </album>
+    </albums>
+
+    <!-- movies -->
+    <movies>
+        <movie id="">
+            <cover></cover>
+            <name></name>
+            <URI></URI>
+        </movie>
+    </movies>
+
+    <!-- pictures -->
+    <pictures>
+        <picture id="">
+            <thumbnail></thumbnail>
+            <URI></URI>
+        </picture>
+    </picture>
+</filelist>

@@ -1,0 +1,12 @@
+Source: mymeego-src
+Section: unknown
+Priority: optional
+Build-Depends: debhelper, libqt4-dev | libqt4-47-dev
+Maintainer: Raw Dimension Projectgroup
+Standards-Version: 3.8.0
+
+Package: mymeego
+Architecture: any
+Depends: ${shlibs:Depends},python, python-coherence
+Description: This is a prototype application for Meego
+ file sharing and collaboration.

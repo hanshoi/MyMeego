@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /usr/share/mymeego/scripts
+python main.py

@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/MainScreen.qml</file>
+        <file>qml/DeviceMenuBar.qml</file>
+        <file>qml/DeviceButton.qml</file>
+        <file>qml/Theme.qml</file>
+        <file>qml/DeviceMenuBarItem.qml</file>
+        <file>qml/DeviceListModel.qml</file>
+        <file>javascript/Windowing.js</file>
+        <file>qml/Dialog.qml</file>
+        <file>qml/TransferView.qml</file>
+        <file>qml/MusicTransfer.qml</file>
+        <file>qml/MovieTransfer.qml</file>
+        <file>qml/PictureTransfer.qml</file>
+        <file>qml/MVPButtons.qml</file>
+        <file>lib/CLSlider.qml</file>
+        <file>lib/MovieView.qml</file>
+        <file>lib/MusicView.qml</file>
+        <file>lib/PictureView.qml</file>
+        <file>lib/colibri/includes/TestCoverList.qml</file>
+        <file>lib/colibri/includes/TestItemList.qml</file>
+        <file>lib/colibri/includes/TestMovieList.qml</file>
+        <file>lib/colibri/includes/TestPictureList.qml</file>
+        <file>lib/colibri/CLStyle.qml</file>
+        <file>lib/colibri/javascripts/functions.js</file>
+        <file>lib/colibri/gradients/Red.qml</file>
+        <file>lib/colibri/gradients/Blue.qml</file>
+        <file>lib/colibri/gradients/Grey.qml</file>
+        <file>lib/colibri/gradients/LightBlue.qml</file>
+        <file>qml/TransferringDialog.qml</file>
+        <file>lib/colibri/CLProgressBar.qml</file>
+    </qresource>
+</RCC>
