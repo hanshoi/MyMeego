@@ -18,7 +18,7 @@ build:
 clean:
 	dh_testdir
 	dh_clean
-	if -f Makefile; then $(MAKE) distclean ;fi
+	if [ -f Makefile ]; then $(MAKE) distclean ;fi
 
 install:
 	dh_testdir
