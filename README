@@ -1,5 +1,5 @@
 +------------------------------------------------------------------------------+
-|                              MyMeego v0.1                                    |
+|                              MyMeego v0.0.1                                  |
 +------------------------------------------------------------------------------+
 
 Overview
@@ -9,29 +9,98 @@ between Meego devices.
 
 Notes
 --------------------------------------------------------------------------------
+This is a research and development project and thus it's not a completely working
+aplication. There is some things that doesn't actually work.
+
 The current implementation cannot really transfer files, therefore the 
-filelists and transfers are faked by the backend.
+filelists and transfers are faked by the backend. However the technology
+used can support such features.
+
+The shared folders is currently not working and it's faked from the backend.
+The folder indexing is possible to do, but to ensure best possible working
+environment it's faked.
+
+
+Installing
+-------------------------------------------------------------------------------
+Primary way of installing the program is debian packaging (ubuntu & Maemo). 
+If you don't have a ready made .deb package, then you need to build this
+package yourself. This can be done by running
+
+dpkg-buildpackage
+
+After this you get your packages in the directory above. (probably looks
+something like this mymeego_0.0.1_i386.deb). That package can be installed
+into your system by running
+
+sudo dpkg -i mymeego_0.0.1_i386.deb
+
+After this the program is ready to be used.
 
 Running
 --------------------------------------------------------------------------------
 To run the program you need both the backend and the UI. Both are found in the
-same repository, from which you are probably reading this file as well. Backend
-can be found in 'ui/daemon/' and the backend process can be started by typing:
+same repository, from which you are probably reading this file as well. Both of 
+these have been installed by the debian package installation mentioned above.
+Backend can be started by the command
 
-python ui/daemon/main.py
+mymeego-backend
 
-The parameter given to the backend is a path to a coherence configuration file
-which defines the name of the device as well as the directories from which
-content is shared.
+You can give a parameter to the backend also. 
 
-After you have succesfully started the backend process you can start the UI
-by opening the project in Qt Creator. You should be able to see your own
-device in the devices menu. You can start new backend processes in other
-terminals to add devices to the list. Remember to modify the coherence.conf
-for other backend processes before attempting to start them. You can also run
-other backend processes on other devices on the same network and they should be
-visible in the devices list. 
+mymeego-backend /usr/share/mymeego/conf/mymeego_car.conf
 
+The parameter given to the backend is a path to a configuration file
+which defines the name of the device, type of the device, as well as 
+the directories from which content is shared.
 
+The application itself can be started with the command
 
+mymeego
 
+This doesn't take any parameters.
+
+Backend usage
+-------------------------------------------------------------------------------
+If you want to use application so that you have multiple backends running,
+eg. multiple devices. You can do this by starting mymeego-backend in other
+devices in your local network, and the devices will popup in the application
+when they are started. 
+
+Alternatively you can start another backend instance on your home computer.
+In this case you have to use another mymeego.conf file, and modify that one
+a little. This modification has to be such that it uses coherence2.conf, 
+instead of coherece.conf. This way you are allowed to have several
+backend instances running simultaneusly.
+
+If you want to create an another type of device than a mobile phone (default),
+then you have either to change device type in mymeego.conf into on of the 
+following "phone","tv","netbook","vehicle". 
+
+Alternatively you can start the backend by using a config file with different
+device type, which has been made for your convenience. 
+
+mymeego-backend /usr/share/mymeego/conf/mymeego_car.conf
+
+Using Without Installing
+-------------------------------------------------------------------------------
+You can use the application without the debian packaging and installing it 
+that way. In that case you have to open the mymeego.pro file in the QtCreator.
+After building the project int creator you can run it from there also.
+
+Backend can be found in the folder /daemon and from there it works the same 
+way as the installed. But starting is bit different, instead of 
+mymeego-backend you run
+
+python main.py ../conf/mymeego_car.conf
+
+Depends
+-------------------------------------------------------------------------------
+Qt (>= 4.7)
+python
+python-coherence
+
+Installed Files & Folders
+-------------------------------------------------------------------------------
+/usr/bin
+/usr/share/mymeego
